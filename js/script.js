@@ -9,7 +9,7 @@ products.forEach(function(item){
         div1.innerHTML += item.textContent + "<br><br>"
         if(div1.innerHTML != ""){
             btn1.style.display = "block";
-            btn1.style.backgroundColor = "blue";
+            btn1.style.backgroundColor = "black";
             btn1.style.color = "white";
             btn1.style.border = "none";
             btn1.style.width = "100px";
